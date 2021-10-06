@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+    color: #252b46;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+a {
+    color: #252b46;
+}
+
+
+.flex{
+    display: flex;
+
+    &__jc-sb {
+        justify-content: space-between;
+    }
+
+    &__jc-c {
+        justify-content: center;
+    }
+    &__ai-c {
+        align-items: center;
+    }
+}
+
+.button_red {
+    padding: 12px 42px;
+    background-color: color(accents);
+    font-family: 'Rubik', sans-serif;
+    color: color(secondaryText);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@include tablet {
+    .hide_for_mobile {
+        display: none;
+    }
+} 
+
+@include desktop {
+    .hide_for_desktop {
+        display: none;
+    }
+}
