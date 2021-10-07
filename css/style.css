@@ -545,7 +545,7 @@ header .main_nav a:hover {
 @media (min-width: 993px) {
   .tab_panel__illustration {
     padding-left: 150px;
-    height: 65vh;
+    height: 60vh;
     background-image: url("/images/bg_svg_mobile_left.svg");
   }
 }
