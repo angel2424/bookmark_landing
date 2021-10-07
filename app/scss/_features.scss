@@ -86,7 +86,7 @@
 
     &__illustration {
         height: 35vh;
-        background: url(/images/bg_svg_mobile_left.svg);
+        background: url('../images/bg_svg_mobile_left.svg');
         background-repeat: no-repeat;
         background-position: left bottom;
         object-fit: contain;
@@ -94,7 +94,7 @@
         @include desktop {
             padding-left: 150px;
             height: 60vh;
-            background: url(/images/bg_svg_desktop_left.svg);
+            background: url('../images/bg_svg_desktop_left.svg');
             background-size: auto;
             background-repeat: no-repeat;
             background-position: bottom left;
