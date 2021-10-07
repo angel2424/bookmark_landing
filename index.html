@@ -38,11 +38,62 @@
             </nav>
         </header>
         <section class="hero">
-            <div class="hero__illustration">
+            <div class="hero__illustration flex flex__ai-c flex__jc-c">
                 <img src="images/illustration-hero.svg" alt="Desktop Illustration">
             </div>
             <div class="hero__text">
-
+                <h1>A Simple Bookmark Manager</h1>
+                <p>A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                <div class="hero__btns flex flex__jc-c">
+                    <a href="#"><button class="button_blue">Get it on Chrome</button></a>
+                    <a href="#"><button class="button_white">Get it on Firefox</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="features__text">
+                <h2>Features</h2>
+                <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            </div>
+            <div class="tab__container">
+                <div class="features__tab flex flex__ai-c flex__jc-c">
+                    <div>
+                        <h3 class="tab_btn" onclick="showPanel(0)">Simple Bookmarking</h3>
+                    </div>
+                    <div>
+                        <h3 class="tab_btn" onclick="showPanel(1)">Speedy Searching</h3>
+                    </div>
+                    <div>
+                        <h3 class="tab_btn" onclick="showPanel(2)">Easy Searching</h3>
+                    </div>
+                </div>
+                <div class="tab_panel">
+                    <div class="tab_panel__illustration flex flex__ai-c flex__jc-c">
+                        <img src="images/illustration-features-tab-1.svg" alt="">
+                    </div>
+                    <div class="tab_panel__text">
+                        <h3>Bookmark in one click</h3>
+                        <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                    </div>
+                </div>
+                <div class="tab_panel">
+                    <div class="tab_panel__illustration flex flex__ai-c flex__jc-c">
+                        <img src="images/illustration-features-tab-2.svg" alt="">
+                    </div>
+                    <div class="tab_panel__text">
+                        <h3>Intelligent search</h3>
+                        <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                    </div>
+                </div>
+                <div class="tab_panel">
+                    <div class="tab_panel__illustration flex flex__ai-c flex__jc-c">
+                        <img src="images/illustration-features-tab-3.svg" alt="">
+                    </div>
+                    <div class="tab_panel__text">
+                        <h3>Share your bookmarks</h3>
+                        <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <script src="app/js/app.js"></script>

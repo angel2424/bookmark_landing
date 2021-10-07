@@ -34,17 +34,72 @@ a {
 }
 
 .button_red {
-    padding: 12px 42px;
+    padding: 12px 45px;
     background-color: color(accents);
     font-family: 'Rubik', sans-serif;
     color: color(secondaryText);
-    border: none;
+    border: 2px solid color(accents);
     border-radius: 5px;
     cursor: pointer;
+    transition: ease-in-out .3s;
+
+    &:hover{
+        color: color(accents);
+        background-color: transparent;
+    }
+
+    @include desktop {
+        padding: 12px 45px;
+    }
+}
+
+.button_blue {
+    padding: 12px 42px;
+    background-color: color(secondary);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: color(secondaryText);
+    border: 2px solid color(secondary);
+    border-radius: 5px;
+    box-shadow: #252b464b 3px 4px 10px;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+
+    &:hover{
+        color: color(secondary);
+        background-color: transparent;
+    }
+
+    @include mobile {
+            padding: 12px 25px;
+    }
+}
+
+.button_white {
+    padding: 12px 42px;
+    background-color: color(primary);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: color(primaryText);
+    border: 2px solid color(primary);
+    border-radius: 5px;
+    box-shadow: #252b464b 3px 4px 10px;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+
+    &:hover{
+        color: color(paragraphText);
+        background-color: color(primary);
+        border: 2px solid color(paragraphText);
+    }
+
+    @include mobile {
+        padding: 12px 25px;
+    }
 }
 
 
-@include tablet {
+@include mobile {
     .hide_for_mobile {
         display: none;
     }
@@ -53,5 +108,9 @@ a {
 @include desktop {
     .hide_for_desktop {
         display: none;
+    }
+
+    .hide_for_mobile {
+        display: block;
     }
 }
