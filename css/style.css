@@ -306,7 +306,7 @@ header .main_nav a:hover {
 
 .hero__illustration {
   height: 35vh;
-  background-image: url("/images/bg_svg_mobile.svg");
+  background-image: url("../images/bg_svg_mobile.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
   -o-object-fit: contain;
@@ -325,7 +325,7 @@ header .main_nav a:hover {
     margin-top: 150px;
     padding-bottom: 110px;
     height: 40vh;
-    background-image: url("/images/bg_svg_desktop.svg");
+    background-image: url("../images/bg_svg_desktop.svg");
   }
 }
 
