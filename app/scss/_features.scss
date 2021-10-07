@@ -97,20 +97,19 @@
             background-image: url('/images/bg_svg_mobile_left.svg');
         }
         
-        @include tablet {
-            padding-left: 0;
-        }
 
         img {
             width: 85vw;
+            
+            @include tablet {
+                width: 45vw;
+            }
             
             @include desktop {
                 width: 35vw;
             }
 
-            @include tablet {
-                width: 65vw;
-            }
+            
         }
     }
 

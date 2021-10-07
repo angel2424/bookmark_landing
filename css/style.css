@@ -550,25 +550,19 @@ header .main_nav a:hover {
   }
 }
 
-@media (min-width: 601px) {
-  .tab_panel__illustration {
-    padding-left: 0;
-  }
-}
-
 .tab_panel__illustration img {
   width: 85vw;
+}
+
+@media (min-width: 601px) {
+  .tab_panel__illustration img {
+    width: 45vw;
+  }
 }
 
 @media (min-width: 993px) {
   .tab_panel__illustration img {
     width: 35vw;
-  }
-}
-
-@media (min-width: 601px) {
-  .tab_panel__illustration img {
-    width: 65vw;
   }
 }
 
