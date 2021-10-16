@@ -3,6 +3,7 @@ const header = document.querySelector('header');
 const overlay = document.querySelector('.overlay');
 const tabPanels = document.querySelectorAll('.tab_panel');
 const tabBtns = document.querySelectorAll('.tab_btn');
+const faqTab = document.querySelectorAll('.faq_title');
 
 hamburgerBtn.addEventListener('click', () => {
     if(header.classList.contains('open')) {
@@ -27,3 +28,14 @@ function showPanel(panelIndex) {
 }
 
 showPanel(0);
+
+
+
+
+
+faqTab.forEach(faq => {
+    faq.addEventListener('click', () => {
+        faq.querySelector('.fas').classList.toggle('arrow');
+        faq.nextElementSibling.classList.toggle('text_reveal');
+    })
+})

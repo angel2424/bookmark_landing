@@ -1,0 +1,81 @@
+.faq {
+    padding: 25px 20px;
+    flex-direction: column;
+    margin-bottom: 85px;
+
+    @include tablet {
+        padding: 25px 95px
+    }
+
+    @include desktop {
+        padding: 25px 350px;
+    }
+
+    @include lDesktop {
+        padding: 25px 450px;
+        margin-bottom: 125px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+
+        @include desktop {
+            font-size: 2rem;
+        }
+    }
+
+    & > p {
+        color: color(paragraphText);
+        text-align: center;
+
+        @include desktop {
+            font-size: 1.2rem;
+            width: 850px;
+        }
+    }
+
+    .faq__tabs {
+        padding: 30px 20px;
+        
+        &_tab {
+            border-bottom: #dbdbdb 1px solid;
+
+            .faq_title {
+                cursor: pointer;
+
+                h4 {
+                    font-weight: 500;
+                }
+
+                .fas {
+                    margin-left: auto;
+                    color: color(secondary);
+                    font-size: 1.2rem;
+                    transition: ease-in-out .3s;
+                }
+
+                .arrow {
+                    transform: rotate(-180deg);
+                    color: color(accents);
+                }
+            }
+
+            .faq_text {
+                overflow: hidden;
+                max-height: 0;
+                color: color(paragraphText);
+                padding-bottom: 10px;
+                transition: max-height .6s ease;
+            }
+
+            .text_reveal {
+                max-height: 200px;
+            }
+        }
+    }
+    
+    .button_blue {
+        margin-top: 30px;
+    }
+}
