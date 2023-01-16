@@ -1,11 +1,13 @@
-# Bookmark Landing Page
+# Bookmark Landing Page | [Visit live website](https://bookmark.ardzcodes.tech)
 
-Hello there! Welcome to my project. This project was taken from Front end mentor.
+</br>
 
-I really enjoyed working on this project because even tough I've done other several projects as a beginner (which are not here in my github), I really felt that I was able to build this more easily, and I now know that I'm really comfortable with JavaScript, more then when I started out. So, I hope you can take some time to look at my live preview and my code! I would love to hear your feedback.
+![Bookmark Landing Page design](https://res.cloudinary.com/dpnv2uar8/image/upload/v1673890786/bookmark-landing_jbybet.jpg)
 
-This project was built with a mobile first approach
+## Project Description
 
-In the next couple of days I'll be adding a few animations using GSAP!
+This project is a Landing Page Frontend Mentor challenge. The challenge provides design files for a landing page for a bookmarking tool. The landing page includes a features tab and a Frequently Asked Questions section, both of which are built using JavaScript. The main objective of this project is to improve my skills in JavaScript, as well as to gain experience in creating a visually appealing and functional landing page for a web application. [View live website](https://bookmark.ardzcodes.tech)
 
-You can see the live preview here! (https://angel2424.github.io/bookmark_landing)
+## Tech Stack
+
+#### HTML, Sass, JavaScript
